@@ -1,0 +1,513 @@
+/* General Styles (Applied to All Pages) */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #FFFFFF;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+  height: 30px; /* Adjust the height as needed */
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  /* Remove transition effect */
+}
+
+header nav ul li a:hover {
+  color: #0078D4;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer a {
+  color: #0078D4;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.social-media a:hover {
+  transform: translateY(-5px);
+}
+
+.social-media img {
+  width: 24px; /* Adjust the size of social media icons */
+  height: 24px;
+}
+
+/* Hero Section Styles */
+/* Hero Section Styles */
+.hero {
+  background-color: #F2F2F2; /* Light gray background */
+  text-align: center;
+  padding: 100px 20px; /* Keep the padding as is */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative; /* Add relative positioning */
+}
+
+.hero-content {
+  max-width: 1200px; /* Increased max-width for better spacing */
+  width: 100%;
+  position: relative; /* Add relative positioning */
+  top: -30px; /* Shift the content up by 30px */
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-images {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Increased gap between images */
+  margin: 20px 0;
+}
+
+.hero-image {
+  max-width: 60%; /* Adjusted to make images larger */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.hero-image:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.hero-content .btn {
+  background-color: #0078D4;
+  color: #FFFFFF;
+  padding: 15px 30px; /* Increased padding for a larger button */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px; /* Increased font size */
+  font-weight: bold; /* Added bold text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.hero-content .btn:hover {
+  background-color: #005A9E; /* Darker blue on hover */
+  transform: translateY(-3px); /* Slightly lift the button */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Product Grid Styles */
+.product-grid {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.product-grid h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.grid-item {
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.grid-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.grid-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.grid-item p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Single "Learn More" Button */
+.button-container {
+  margin-top: 30px; /* Space above the button */
+  text-align: center; /* Center the button */
+}
+
+.button-container .btn {
+  background-color: #0078D4;
+  color: #FFFFFF;
+  padding: 15px 30px; /* Increased padding for a larger button */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px; /* Increased font size */
+  font-weight: bold; /* Added bold text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.button-container .btn:hover {
+  background-color: #005A9E; /* Darker blue on hover */
+  transform: translateY(-3px); /* Slightly lift the button */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Contact Page Styles */
+.contact-page {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-page p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Form Container */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+/* Contact Form Box */
+.contact-form {
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+  width: 100%;
+  max-width: 600px; /* Limit the form width */
+  text-align: left;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #0078D4;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+/* Improved Submit Button */
+.contact-form .btn {
+  background-color: #0078D4;
+  color: #FFFFFF;
+  padding: 15px 30px; /* Increased padding for a larger button */
+  border: none;
+  border-radius: 5px;
+  font-size: 18px; /* Increased font size */
+  font-weight: bold; /* Added bold text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.contact-form .btn:hover {
+  background-color: #005A9E; /* Darker blue on hover */
+  transform: translateY(-3px); /* Slightly lift the button */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Success Message */
+.success-message {
+  background-color: #4CAF50; /* Green background */
+  color: #FFFFFF; /* White text */
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+  display: none; /* Hidden by default */
+}
+
+.success-message p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.help-section {
+  background-color: #F2F2F2;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.help-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.help-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.help-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.help-section ul li {
+  margin-bottom: 10px;
+}
+
+.help-section ul li a {
+  color: #0078D4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.help-section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Products Page Styles */
+.products-hero {
+  background-color: #0078D4;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.products-hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.products-hero p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.product-sections {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-section {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Reduced gap between image and text */
+  margin-bottom: 60px;
+}
+
+.product-section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.product-image {
+  flex: 1;
+  max-width: 40%; /* Adjust the image width */
+}
+
+.product-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-info h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.product-info p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Updated Button Styles */
+.product-info .btn {
+  background-color: #0078D4;
+  color: #FFFFFF;
+  padding: 15px 30px; /* Increased padding for a larger button */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px; /* Increased font size */
+  font-weight: bold; /* Added bold text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.product-info .btn:hover {
+  background-color: #005A9E; /* Darker blue on hover */
+  transform: translateY(-3px); /* Slightly lift the button */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* About Page Styles (Isolated) */
+.about-hero {
+  background-color: #0078D4;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.about-hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.about-hero p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 40%; /* Adjust the image width */
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Success Message Styles */
+.success-message {
+  background-color: #4CAF50; /* Green background */
+  color: #FFFFFF; /* White text */
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+  display: none; /* Hidden by default */
+}
+
+.success-message p {
+  margin: 0;
+  font-size: 18px;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microsoft - Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="images/microsoft-logo.png" alt="Microsoft Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-page">
+    <h1>Contact Microsoft Support</h1>
+    <p>We're here to help. Get in touch with us for assistance with your Microsoft products and services.</p>
+    
+    <!-- Centered Contact Form -->
+    <div class="form-container">
+      <div class="contact-form">
+        <h2>Send us a message</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+        <!-- Success Message -->
+        <div id="successMessage" class="success-message" style="display: none;">
+          <p>Your message has been submitted successfully!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Help Section -->
+    <div class="help-section">
+      <h2>Need help quickly?</h2>
+      <p>Check out our most common support topics:</p>
+      <ul>
+        <li><a href="#">Account & Billing Support</a></li>
+        <li><a href="#">Microsoft 365 Support</a></li>
+        <li><a href="#">Windows Support</a></li>
+        <li><a href="#">Xbox Support</a></li>
+        <li><a href="#">Azure Support</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Microsoft. All rights reserved.</p>
+      <p>Contact: <a href="mailto:support@microsoft.com">support@microsoft.com</a></p>
+      <div class="social-media">
+        <a href="https://twitter.com/Microsoft" target="_blank">
+          <img src="images/twitter-icon.jpeg" alt="Twitter">
+        </a>
+        <a href="https://www.facebook.com/Microsoft" target="_blank">
+          <img src="images/facebook-icon.jpeg" alt="Facebook">
+        </a>
+        <a href="https://www.linkedin.com/company/microsoft" target="_blank">
+          <img src="images/linkedin-icon.png" alt="LinkedIn">
+        </a>
+        <a href="https://www.youtube.com/user/Microsoft" target="_blank">
+          <img src="images/youtube-icon.png" alt="YouTube">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
